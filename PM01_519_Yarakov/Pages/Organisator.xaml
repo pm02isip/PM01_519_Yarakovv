@@ -1,0 +1,38 @@
+﻿<Page x:Class="PM01_519_Yarakov.Pages.Organisator"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PM01_519_Yarakov.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Organisator">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <TextBlock Text="Окно организатора"  FontSize="20" TextAlignment="Center" Margin="0,10,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="TEST"  TextAlignment="Center" Margin="0,15,0,0" Name="Good"/>
+            <TextBlock Text="TEST"  TextAlignment="Center" Name="Fio"/>
+
+            <Button Content="Мероприятия" Width="130" Height="80" Margin="0,10,0,0" FontSize="16" />
+            <Button Content="Участники" Width="130" Height="80" Margin="0,10,0,0" FontSize="16" />
+            <Button Content="Жюри" Width="130" Height="80" Margin="0,10,0,0" FontSize="16" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="0">
+            <Image Height="250" Width="150"/>
+            <Button Content=" Мой профиль" Name="Profil" Width="100" Margin="0,20,0,0" />
+        </StackPanel>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Page>

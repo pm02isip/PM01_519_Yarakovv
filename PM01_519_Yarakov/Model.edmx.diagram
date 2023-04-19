@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e9e85b93794f41c186297d66277013dd" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Country" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Events" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Gender" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Jobs" Width="1.5" PointX="0.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Joins" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Jury" Width="1.5" PointX="6" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Moderator" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.Organisation" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="PM01_519_YarakovModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Joins_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Jury_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Moderator_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Organisation_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Moderator_Events" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Joins_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Jury_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Moderator_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Organisation_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Jury_Jobs" ManuallyRouted="false" />
+        <AssociationConnector Association="PM01_519_YarakovModel.FK_Moderator_Jobs" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
